@@ -1,0 +1,18 @@
+<mat-toolbar style="background-color: transparent; position: fixed; color: white;">
+    <div >
+        <img routerLink="home" style="width: 190px; margin-left:60px;" src="https://foliagetechnologies.com/media/logo-light.png" alt="">
+    </div>
+   
+   <span class="example-spacer"></span>
+
+   <button style="margin-left: 10px;" mat-button routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</button>
+   <button style="margin-left: 10px;" mat-button routerLink="service" routerLinkActive="active">Services</button>
+   <button style="margin-left: 10px;" mat-button routerLink="portfolio" routerLinkActive="active">Portfolio</button>
+   <button style="margin-left: 10px;" mat-button routerLink="about" routerLinkActive="active">About Us</button>
+   <button style="margin-left: 10px;" mat-button routerLink="blog" routerLinkActive="active">Blog</button>
+   <button style="margin-left: 10px;" mat-button routerLink="contact" routerLinkActive="active">Contact</button>
+
+   <span class="example-spacer"></span>
+
+   <button  style="margin-right: 60px ; border: 1px solid white; color: white;" mat-button>Get a Quote</button>
+ </mat-toolbar>
